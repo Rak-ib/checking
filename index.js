@@ -6,7 +6,7 @@ app.use(cors())
 app.use(express.json())
 
 
-
+console.log("nothing");
 
 app.get('/',(req,res)=>{
     console.log("nothing");
